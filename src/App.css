@@ -1,0 +1,34 @@
+.main-panel {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8vh;
+  padding: 3vh 0vh;
+}
+
+.app-logo {
+  font-size: 38px;
+  margin: 2vh;
+}
+
+#donate {
+  color: lightgreen;
+}
+
+.org-logo {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
+.donation-picker {
+  text-align: center;
+}
+
+.close-btn {
+  width: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 4vh;
+}
