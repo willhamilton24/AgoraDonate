@@ -1,3 +1,5 @@
+![Concept](https://img.shields.io/badge/Concept-F-red) ![Effort to Cashflow](https://img.shields.io/badge/Effort_to_Cashflow-85%2F100-red)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -1621,3 +1623,14 @@ Please refer to [this section](#resolving-heroku-deployment-errors).
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+
+## 💰 Path to Revenue
+A white-label donation widget for nonprofits could earn a cut per transaction, but this is a single static 2020 mockup screen with no payments, backend, or org onboarding — and it competes with Donorbox/Givebutter/Stripe Payment Links.
+
+### Release TODOs
+- [ ] Integrate a real payment flow (Stripe Checkout / Payment Element) behind the amount buttons
+- [ ] Build org onboarding so nonprofits can configure name/logo/amounts (currently hardcoded Amnesty International)
+- [ ] Add an embeddable widget/iframe build so orgs can drop it into their sites
+- [ ] Add a minimal backend for orgs, donations, and receipts (tax receipt emails)
+- [ ] Modernize the stack (2020-era CRA + Material-UI v4 class components) and replace the stock CRA README
+- [ ] Monetize via platform fee percentage on donations; list on nonprofit tech directories
